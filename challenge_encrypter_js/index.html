@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="/src/Frame 6.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+  <title>Challenge Alura Encrypter</title>
+</head>
+<body>
+  <header>
+    <div><img href="https://www.linkedin.com/company/alura-latam/?originalSubdomain=mx" target="_blank" src="/src/Frame 6.png" alt="Alura Logo"></div>
+    <nav>
+      <ul><li><a href="https://www.linkedin.com/in/perez-favela-moises/" target="_blank">About</a></li></ul>
+      <ul><li><a href="https://pfm-cv.me" target="_blank">Portfolio</a></li></ul> 
+      <ul><li><a href="https://github.com/PerfavM?tab=repositories" target="_blank" >GitHub</a></li></ul>
+      <ul><li><a href="https://app.aluracursos.com/degree/certificate/73593ffb-bb84-4764-9953-c15a073133ec" target="_blank">Certificate</a></li></li></ul>
+    </nav>
+    <div><a href="mailto:contactme@pfm-cv.me" target="_blank">Contact Me</a></div>
+  </header>
+  <main>
+    <section class="left_area">
+      <div>
+        <h5 class="information">"Please, only minus letter, and no acents"</h5>
+      </div>
+      <textarea class="text-area" cols="30" rows="10" placeholder="Please, insert the text!!"></textarea>
+      <div class="botton">
+        <button class="encripter" onclick="btnEncriptar()">Encrypter</button>
+        <button class="desenripter" onclick="btnDesencriptar()">Desencrypter</button>
+      </div>
+    </section>
+    <section class="right_area">
+      <textarea class="mensagge"></textarea>
+      <div class="botton2">
+        <button class="copy-text" onclick="copy()">Copy</button>
+      </div>
+    </section>
+  </main>
+<script src="/src/script.js"></script>
+</body>
+</html>
